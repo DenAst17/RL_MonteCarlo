@@ -1,0 +1,19 @@
+{
+ "curve_first": 783.076,
+ "curve_last": 62.568,
+ "curve_min": 52.116,
+ "curve_episodes_to_200": 1000,
+ "mc_median_success": 175.0,
+ "vi_median": 105.0,
+ "mc_max_success": 199,
+ "vi_max": 173,
+ "mc_faster_than_vi": 0,
+ "mc_equal_vi": 0,
+ "unvisited_on_vi_path": 0,
+ "min_visits_on_vi_path": 437,
+ "median_visits_on_vi_path": 7372.0,
+ "v_mc_below_vi_share": 0.8151260504201681,
+ "unvisited_x_max": 0.5780487804878047,
+ "unvisited_x_min": 0.5341463414634146,
+ "unvisited_absv_min": 0.0
+}

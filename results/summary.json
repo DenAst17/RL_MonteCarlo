@@ -1,0 +1,41 @@
+{
+  "config": {
+    "episodes": 500000,
+    "batch": 250,
+    "horizon": 1000,
+    "eps_min": 0.05,
+    "seed": 42,
+    "gamma": 0.99,
+    "n_x": 41,
+    "n_v": 41
+  },
+  "training": {
+    "time_s": 50.397475899982965,
+    "env_steps": 31998129,
+    "unvisited_states": 82
+  },
+  "evaluation": {
+    "PI": {
+      "episodes": 1000,
+      "successes": 1000,
+      "mean_steps": 104.703
+    },
+    "VI": {
+      "episodes": 1000,
+      "successes": 1000,
+      "mean_steps": 104.743
+    },
+    "MC": {
+      "episodes": 1000,
+      "successes": 967,
+      "mean_steps": 171.863
+    }
+  },
+  "comparison": {
+    "agreement_all_pct": 63.117192147531235,
+    "agreement_vi_path_pct": 64.53781512605042,
+    "vi_path_cells": 595,
+    "v_diff_mean": -6.850087200650431,
+    "v_corr": 0.9672794675657138
+  }
+}
